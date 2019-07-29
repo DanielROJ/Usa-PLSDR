@@ -20,18 +20,12 @@
 #   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
 #**************************************************************************
 
-import re
-import sys
-import os
-import time
-import struct
-import signal
+
 import numpy as np
 
 import osmosdr
 
 from PyQt5 import QtCore
-from PyQt5 import QtGui
 from PyQt5.QtWidgets import QWidget
 
 from gnuradio import analog
@@ -42,7 +36,7 @@ from gnuradio import gr
 from gnuradio.filter import firdes
 from gnuradio.fft import logpwrfft
 
-import sip
+
 
 class DrawGraphics(QtCore.QObject):
     draw = QtCore.pyqtSignal() 

@@ -20,17 +20,9 @@
 #   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
 #**************************************************************************
 
-import re
-import sys
-import os
-import time
-import struct
-import signal
-import numpy as np
-import random
 
-from PyQt5 import Qt
-from PyQt5 import QtCore,QtGui
+
+from PyQt5 import QtGui
 from PyQt5.QtGui import QColor,QImage,QPainter
 from PyQt5.QtWidgets import QWidget
 from PyQt5.QtCore import QRect,QEvent

@@ -24,18 +24,14 @@ import re
 import sys
 import os
 import ast
-import time
-import struct
-import signal
-import numpy as np
 import glob
-from gnuradio import gr
+
 
 from PyQt5 import Qt
 from PyQt5 import QtCore,QtGui
-from PyQt5.QtWidgets import QWidget,QMainWindow,QHeaderView, QMessageBox
+from PyQt5.QtWidgets import QMainWindow,QHeaderView, QMessageBox
 
-import osmosdr
+
 
 from PLSDR_GUI import Ui_MainWindow
 import Radio

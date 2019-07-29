@@ -20,19 +20,13 @@
 #   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
 #**************************************************************************
 
-import re
-import sys
-import os
-import time
-import struct
-import signal
-import numpy as np
-from threading import Thread
 
-from PyQt5 import Qt
-from PyQt5 import QtCore,QtGui
+
+from PyQt5 import QtCore
 from PyQt5.QtWidgets import QWidget
 from PyQt5.QtCore import QEvent
+
+
 #from PyQt5.QtGui #import ContextMenu
 
 class TextEntry(QWidget):

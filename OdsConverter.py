@@ -21,12 +21,7 @@
 #**************************************************************************
 
 import re
-import sys
-import os
-import ast
-import time
-import struct
-import signal
+
 import zipfile
 
 class OdsToArray():
